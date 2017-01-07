@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1483828679785">{:repl-history {:ide [], :local [&quot;(def example \&quot;And the Golden Grouse And the Pobble who\&quot;)&quot; &quot;(def words (clojure.string/split example #\&quot; \&quot;))&quot; &quot;words&quot; &quot;(def word-transitions (partition-all 3 1 words))&quot; &quot;word-transitions&quot; &quot;(reduce (fn [r t] (merge-with clojure.set/union r\n                              (let [[a b c] t]\n                                {[a b] (if c #{c} #{})})))\n        {}\n        word-transitions)&quot; &quot;(generate-text \&quot;And the\&quot; (process-file \&quot;quangle-wangle.txt\&quot;))&quot; &quot;(tweet-text)&quot; &quot;(status-update)&quot;], :remote []}}</component>
+</project>
